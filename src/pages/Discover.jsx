@@ -1,8 +1,8 @@
-import React from "react";
-import { genres } from "../assets/constants";
+// import React from "react";
+import { genres } from '../assets/constants';
 
 const Discover = () => {
-  const genresTitle = "Pop";
+  const genresTitle = 'Pop';
   return (
     <div className="flex flex-col">
       <div className="w-full justify-between items-center sm:flex-row  flex-col m-20">
@@ -21,7 +21,7 @@ const Discover = () => {
           ))}
         </select>
       </div>
-      <div className="flex flex-wrap sm:justify-start justify-center gap-8"></div>
+      <div className='flex flex-wrap sm:justify-start justify-center gap-8'></div>
     </div>
   );
 };
